@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+   }
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(2.82deg, rgba(38, 159, 197, 0.71) 3.77%, #1E4D62 89.04%);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;   
+}
+.fc{
+    width: 400px;
+    height: 300px;
+    background-color:transparent;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.219);
+    margin: 20px;
+    flex-direction: column;
+}
+
+.up{
+    width:250px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+}.up label{
+    color: rgb(165,165,165);
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    transition: 0.5s ease-in-out;
+}
+.up input{
+    border: none;
+    padding: 7px;
+    margin-top: 5px;
+    outline: none;
+    border-bottom: 1px solid #c9c9c98a;
+    background-color: transparent;
+
+}
+.up input:focus ~ label,
+.up input:valid ~ label  {
+    color: blue;
+    top: -10px;
+    font-size: 12px;
+}
+.up input:focus ,
+.up input:valid {
+    border-color: blue;
+     
+}
+.submitbt{
+    background: radial-gradient(252.13% 252.13% at 50% 50%, #2C667C 0%, #61B6D1 100%);
+   filter: blur(.5 px);
+    color: white;
+    padding: 10px 0;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 250px;
+    cursor: pointer;
+}
+.lh h2{
+    font-family: Petrona;
+    font-style: normal; 
+    font-weight: 10px;
+    font-size: 24px;
+    line-height: 27px;
+     mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.lh a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.sfc{
+   
+    height: 400px;
+
+}
