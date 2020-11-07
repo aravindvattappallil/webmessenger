@@ -5,6 +5,21 @@ body{
     margin: 0;
     padding: 0;
    }
+   .hbg{
+       height: 100vh;
+       width: 100%;
+       background-image: url("./bg.jpeg");
+       background-repeat:no-repeat ;
+       background-size: cover;
+       background-position: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       
+   }
+   .hbg h1,h2 {
+       margin-top: 0px;;
+   }
 .container{
     height: 100vh;
     width: 100%;
@@ -90,4 +105,104 @@ body{
    
     height: 400px;
 
+}
+.tb{
+    height:100px ;
+    display: flex ;
+    justify-content: space-between;
+    
+}
+
+.ltb,.rtb{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.ltb h3 a,.rtb h3 a{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px;
+}
+.rtb{
+    margin-right: 30px;
+    position: relative;
+}
+.india{
+
+    color: white;
+    display: flex;
+    margin-left: 47%;
+    margin-top: -10%;    
+}
+.explore h1 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.rtb label{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 30px;
+    transition: 0.5s ease-in-out;
+}
+.rtb input{
+    height: 30px;
+    width: 200px;
+    background: transparent;
+    border: none;
+    margin-top: 25px;
+   background-color: transparent;
+    border-bottom: 2px solid white;
+    outline: none;
+   
+
+}
+.rtb input:focus ~ label,
+.rtb input:valid ~ label  {
+    color: blue;
+    top: 10px;
+    font-size: 12px;
+}
+.rtb input:focus ,
+.rtb input:valid {
+    border: none;
+      border-bottom: 2px solid white;
+    border-color: blue;
+     
+}
+.hrl{
+    display: flex;
+    margin-left: -42%;
+   
+}
+.line{
+    width: 200px;
+    height: 2px;
+    background-color: white;
+
+   
+   
+}
+.ex p{
+    margin: 0px;
+
+    margin-top: -10px   ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fbar
+{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 0px;
+}
+.leftf,.middlef,.rightf{
+    width: 200px;
+    height: 200px;
+    background-color: white;
 }
