@@ -124,6 +124,8 @@ body{
     text-decoration: none;
     margin-left: 10px;
     padding: 10px;
+    color: #FFFFFF;
+    
 }
 .rtb{
     margin-right: 30px;
@@ -134,11 +136,17 @@ body{
     color: white;
     display: flex;
     margin-left: 47%;
-    margin-top: -10%;    
+    margin-top: -5%;    
 }
 .explore h1 a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    font-size: 96px;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #FFFFFF; 
+    margin-left: -20%;
 
 }
 
@@ -184,6 +192,7 @@ body{
     width: 200px;
     height: 2px;
     background-color: white;
+    margin: 0;
 
    
    
@@ -192,17 +201,111 @@ body{
     margin: 0px;
 
     margin-top: -10px   ;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.2em;
+
+color: #FFFFFF;
 }
 .fbar
 {
    display: flex;
    justify-content: space-between;
-   margin-bottom: 0px;
+   margin-bottom:0px;
+   padding-bottom:10PX ;
+   
 }
 .leftf,.middlef,.rightf{
-    width: 200px;
-    height: 200px;
-    background-color: white;
+    width: 300px;
+    height: 254px;
+    
+    
+}
+.middlef{
+    width:400px ;
+}
+
+.leftf{
+    margin-left: 50px;
+}
+.rightf{
+    margin-right: 50px;
+}
+.middlef h2{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: left;
+letter-spacing: 0.035em;
+margin: 0;
+margin-left: 50px;
+color: #FFFFFF;
+margin-bottom: 4px;
+}
+.middlef p{
+    width: 300px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.035em;
+color: #FFFFFF;
+padding-top: 20px;
+
+
+}
+.middlef i{
+    color: #FFFFFF;
+
+}
+
+.fline{
+    width: 300px;
+    
+    height: 2px;
+    margin: 0;
+    margin-left: 50px;
+background: rgba(255, 255, 255, 0.26);
+}
+.middle-align{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.rightf h2 a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.rightf h2{
+    margin-bottom: 10px;
+}
+
+.smp,.nearby,.saf,.direction{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+
+}
+.rightf i{
+     color: #FFFFFF;
+     padding: 5px;
+     margin: 0;
+     
+}
+
+.rff{
+    padding-top: 25px;
+    padding-left: 75px;
 }
