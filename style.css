@@ -8,7 +8,7 @@ body{
    .hbg{
        height: 100vh;
        width: 100%;
-       background-image: url("./bg.jpeg");
+       background: linear-gradient(180deg, rgba(0, 0, 0, 0.44) 0%, rgba(255, 255, 255, 0) 50.52%, rgba(0, 0, 0, 0.59) 100%), url("./bg.jpeg");
        background-repeat:no-repeat ;
        background-size: cover;
        background-position: center;
@@ -157,6 +157,7 @@ body{
     position: absolute;
     top: 30px;
     transition: 0.5s ease-in-out;
+    
 }
 .rtb input{
     height: 30px;
@@ -167,6 +168,7 @@ body{
    background-color: transparent;
     border-bottom: 2px solid white;
     outline: none;
+    margin-right: 50px;
    
 
 }
